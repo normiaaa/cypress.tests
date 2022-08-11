@@ -1,0 +1,15 @@
+{
+  "devDependencies": {
+    "cypress": "^10.4.0",
+    "prettier": "2.7.1"
+  },
+
+  "scripts": {
+   
+    "cypress:open": "./node_modules/.bin/cypress open",
+    "cypress:run": "./node_modules/.bin/cypress run",
+    "cypress:reports": "cypress run --reporter junit --reporter-options \"mochaFile=results/my-test-output-[hash].xml\""
+  
+   
+  }
+}

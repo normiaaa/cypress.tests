@@ -1,0 +1,13 @@
+{
+	"NEW_EMPLOYEE_DATA": {
+		"name": "cypress test",
+		"salary": "420",
+		"age": 99
+	},
+	"UPDATE_EMPLOYEE_DATA": {
+		"ID": "19",
+		"name": "update employee",
+		"salary": "500",
+		"age": 77
+	}
+}
